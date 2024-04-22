@@ -1,0 +1,18 @@
+h1 {
+    color: green;
+}
+h2 {
+    color: green;
+}
+
+#economy h2 {   /*estilizado a partir de uma id*/
+    color: goldenrod;
+}
+
+.creation-date {    /*estilizado a partir de uma class*/
+    color: #ccc;
+}
+
+* {
+    color: red; /*usando o (*) toda a informação vai receber a cor indicada, exceto os elementos que não receberam estilização específica*/
+}
