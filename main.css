@@ -1,18 +1,28 @@
-h1 {
-    color: green;
-}
-h2 {
-    color: green;
-}
-
-#economy h2 {   /*estilizado a partir de uma id*/
-    color: goldenrod;
-}
-
-.creation-date {    /*estilizado a partir de uma class*/
-    color: #ccc;
-}
-
 * {
-    color: red; /*usando o (*) toda a informação vai receber a cor indicada, exceto os elementos que não receberam estilização específica*/
+    box-sizing: border-box; /*usando o (*) toda a informação vai receber a cor indicada, exceto os elementos que não receberam estilização específica*/
+    margin: 1;
+    padding: 0;
+}
+
+header li {
+    display: inline;
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img {
+    height: 180px;
+}
+
+.articles article {
+    width: 30%;
 }
